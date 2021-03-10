@@ -6,15 +6,14 @@
 6. select disk 0
 7. list partition
 8. select system partition (usually partition 2, labeled "System", approx 100mb)
-9. select partition 2
-10. assign letter=x
-11. exit from diskpart
-12. exec "x:"
-13. exec "dir"
-14. cd "efi"
-15. exec "dir"
-16. rd "<linux>" /s
-17. Y
-18. check again with "dir"
-19. exit from cmd
-20. restart
+9. assign letter=x
+10. exit from diskpart
+11. exec "x:"
+12. exec "dir"
+13. cd "efi"
+14. exec "dir"
+15. rd "<linux>" /s
+16. Y
+17. check again with "dir"
+18. exit from cmd
+29. restart
